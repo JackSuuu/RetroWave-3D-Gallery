@@ -1,4 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RetroWave 3D Gallery
+
+An immersive 3D gallery experience built with Next.js and Three.js, featuring a retro synthwave aesthetic. This project combines modern web technologies with 80s-inspired design to create a unique visual showcase.
+
+![RetroWave 3D Gallery](https://jackphilippi.com.au/cdn/fonts/outrun_future.otf)
+
+## Features
+
+- Stunning retro wave visual aesthetics with neon gradients
+- Interactive 3D environment for showcasing gallery items
+- Dynamic lighting effects and animations
+- Responsive design that works across devices
+- Smooth transitions between gallery sections
+- Custom OutRun-inspired typography
+
+## Technologies Used
+
+- **Frontend**: Next.js, React
+- **3D Rendering**: Three.js
+- **Animation**: GSAP
+- **Styling**: Tailwind CSS
+- **Typography**: Custom OutRun font
 
 ## Getting Started
 
@@ -8,30 +29,36 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the gallery.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Next.js application routes and main pages
+- `components/` - Reusable React components
+  - `GalleryHeader.tsx` - Retro wave styled header component
+- `public/` - Static assets and resources
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+You can customize gallery content by modifying:
+- Title and subtitle text in pages
+- 3D models and assets in the gallery scenes
+- Color schemes through global CSS variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Inspiration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project draws inspiration from:
+- 80s synthwave and retrowave aesthetics
+- New Retro Wave music scene
+- Outrun arcade games
+- Modern 3D web experiences
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[MIT](LICENSE)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# 3D-photo-gallery
+---
+
+Created by Jack Su
