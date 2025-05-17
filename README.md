@@ -2,7 +2,7 @@
 
 An immersive 3D gallery experience built with Next.js and Three.js, featuring a retro synthwave aesthetic. This project combines modern web technologies with 80s-inspired design to create a unique visual showcase.
 
-![RetroWave 3D Gallery](https://jackphilippi.com.au/cdn/fonts/outrun_future.otf)
+![RetroWave 3D Gallery](banner.png)
 
 ## Features
 
